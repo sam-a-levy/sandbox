@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           Rscript -e 'install.packages(c("data.table", "zoo","tsbox","OECD"))'
-          chmod +x solutions/demo_gha.R
+          chmod +x demo_gha.R
           git config --local user.email "bot@h4sci.ch"
           git config --local user.name "Sam's bot"
           ./solutions/demo_gha.R
