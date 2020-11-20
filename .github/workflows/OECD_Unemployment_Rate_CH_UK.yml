@@ -24,6 +24,6 @@ jobs:
           git config --local user.name "Sam's bot"
           ./demo_gha.R
       - run: |-
-          git add unemployment_rate_ch.csv
+          git add unemployment_rate_ch_uk.csv
           git commit -m 'automatic raw data update'
           git push 
